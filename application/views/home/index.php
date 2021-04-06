@@ -3,36 +3,16 @@
     <div class="container d-flex align-items-center">
 
         <div class="logo me-auto">
-            <h1><a href="index.html">Mamba</a></h1>
+            <h1><a href="<?= base_url('Home'); ?>">Bankku</a></h1>
             <!-- Uncomment below if you prefer to use an image logo -->
             <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
         </div>
 
         <nav id="navbar" class="navbar">
             <ul>
-                <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-                <li><a class="nav-link scrollto" href="#about">About</a></li>
-                <li><a class="nav-link scrollto" href="#services">Services</a></li>
-                <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
-                <li><a class="nav-link scrollto" href="#team">Team</a></li>
-                <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-                    <ul>
-                        <li><a href="#">Drop Down 1</a></li>
-                        <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                            <ul>
-                                <li><a href="#">Deep Drop Down 1</a></li>
-                                <li><a href="#">Deep Drop Down 2</a></li>
-                                <li><a href="#">Deep Drop Down 3</a></li>
-                                <li><a href="#">Deep Drop Down 4</a></li>
-                                <li><a href="#">Deep Drop Down 5</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Drop Down 2</a></li>
-                        <li><a href="#">Drop Down 3</a></li>
-                        <li><a href="#">Drop Down 4</a></li>
-                    </ul>
-                </li>
-                <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                <li><a class="nav-link scrollto active" href="#hero">Simpanan</a></li>
+                <li><a class="nav-link scrollto" href="#about">Pinjaman</a></li>
+                <li><a class="nav-link scrollto" href="#services">Kontak</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
@@ -53,9 +33,9 @@
                 <div class="carousel-item active" style="background-image: url('<?= base_url('assets/mamba/'); ?>assets/img/slide/slide-1.jpg');">
                     <div class="carousel-container">
                         <div class="carousel-content container">
-                            <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Mamba</span></h2>
-                            <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                            <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+                            <h2 class="animate__animated animate__fadeInDown">Selamat Datang Di <span>BANKKU</span></h2>
+                            <p class="animate__animated animate__fadeInUp">Dapatkan layanan terbaik, untuk para pengusaha</p>
+                            <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Daftar Sekarang</a>
                         </div>
                     </div>
                 </div>
@@ -64,9 +44,9 @@
                 <div class="carousel-item" style="background-image: url('<?= base_url('assets/mamba/'); ?>assets/img/slide/slide-2.jpg');">
                     <div class="carousel-container">
                         <div class="carousel-content container">
-                            <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
-                            <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                            <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+                            <h2 class="animate__animated animate__fadeInDown">Simpanan</h2>
+                            <p class="animate__animated animate__fadeInUp">Salah satu produk unggulan dari kami adalah simpanan</p>
+                            <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Selengkapnya</a>
                         </div>
                     </div>
                 </div>
@@ -75,9 +55,9 @@
                 <div class="carousel-item" style="background-image: url('<?= base_url('assets/mamba/'); ?>assets/img/slide/slide-3.jpg');">
                     <div class="carousel-container">
                         <div class="carousel-content container">
-                            <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
-                            <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                            <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+                            <h2 class="animate__animated animate__fadeInDown">Pinjaman</h2>
+                            <p class="animate__animated animate__fadeInUp">Selain simpanan kami juga ada pinjaman</p>
+                            <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Selengkapnya</a>
                         </div>
                     </div>
                 </div>
@@ -110,20 +90,20 @@
                 <div class="col-lg-6 d-flex flex-column justify-content-center about-content">
 
                     <div class="section-title">
-                        <h2>About Us</h2>
-                        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
+                        <h2>Tentang Kami</h2>
+                        <p>BANKKU di dirikan pada 15 Maret 2021, meskipun kami baru berdiri tahun sekarang, tetapi kami mempunyai visi dan misi untuk memajukan dunia perbankan di indonesia</p>
                     </div>
 
                     <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
                         <div class="icon"><i class="bx bx-fingerprint"></i></div>
-                        <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-                        <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                        <h4 class="title"><a href="">VISI</a></h4>
+                        <p class="description">Menjadi Patner untuk para usaha muda</p>
                     </div>
 
                     <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
                         <div class="icon"><i class="bx bx-gift"></i></div>
-                        <h4 class="title"><a href="">Nemo Enim</a></h4>
-                        <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                        <h4 class="title"><a href="">MISI</a></h4>
+                        <p class="description">Memberikan solusi untuk para usaha muda dengan layanan perbankan yang handal</p>
                     </div>
 
                 </div>
@@ -132,52 +112,6 @@
         </div>
     </section><!-- End About Us Section -->
 
-    <!-- ======= About Lists Section ======= -->
-    <section class="about-lists">
-        <div class="container">
-
-            <div class="row no-gutters">
-
-                <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up">
-                    <span>01</span>
-                    <h4>Lorem Ipsum</h4>
-                    <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
-                </div>
-
-                <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="100">
-                    <span>02</span>
-                    <h4>Repellat Nihil</h4>
-                    <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
-                </div>
-
-                <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="200">
-                    <span>03</span>
-                    <h4> Ad ad velit qui</h4>
-                    <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
-                </div>
-
-                <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="300">
-                    <span>04</span>
-                    <h4>Repellendus molestiae</h4>
-                    <p>Inventore quo sint a sint rerum. Distinctio blanditiis deserunt quod soluta quod nam mider lando casa</p>
-                </div>
-
-                <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="400">
-                    <span>05</span>
-                    <h4>Sapiente Magnam</h4>
-                    <p>Vitae dolorem in deleniti ipsum omnis tempore voluptatem. Qui possimus est repellendus est quibusdam</p>
-                </div>
-
-                <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="500">
-                    <span>06</span>
-                    <h4>Facilis Impedit</h4>
-                    <p>Quis eum numquam veniam ea voluptatibus voluptas. Excepturi aut nostrum repudiandae voluptatibus corporis sequi</p>
-                </div>
-
-            </div>
-
-        </div>
-    </section><!-- End About Lists Section -->
 
     <!-- ======= Counts Section ======= -->
     <section class="counts section-bg">
@@ -189,7 +123,7 @@
                     <div class="count-box">
                         <i class="bi bi-simple-smile" style="color: #20b38e;"></i>
                         <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-                        <p>Happy Clients</p>
+                        <p>Jumlah Client kami</p>
                     </div>
                 </div>
 
@@ -197,23 +131,23 @@
                     <div class="count-box">
                         <i class="bi bi-document-folder" style="color: #c042ff;"></i>
                         <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-                        <p>Projects</p>
+                        <p>Patners Perusahaan</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up" data-aos-delay="400">
                     <div class="count-box">
                         <i class="bi bi-live-support" style="color: #46d1ff;"></i>
-                        <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
-                        <p>Hours Of Support</p>
+                        <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1" class="purecounter"></span>
+                        <p>Kami Berdiri</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up" data-aos-delay="600">
                     <div class="count-box">
                         <i class="bi bi-users-alt-5" style="color: #ffb459;"></i>
-                        <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-                        <p>Hard Workers</p>
+                        <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
+                        <p>Penghargaan Yang Didapat</p>
                     </div>
                 </div>
 
@@ -227,204 +161,31 @@
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
-                <h2>Services</h2>
+                <h2>Layanan Kami</h2>
             </div>
 
             <div class="row">
-                <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+                <div class="col-lg-6 col-md-6 icon-box" data-aos="fade-up">
                     <div class="icon"><i class="bi bi-chat-left-dots"></i></div>
-                    <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-                    <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                    <h4 class="title"><a href="">Simpanan</a></h4>
+                    <p class="description">Dapatkan Keuntungan dan kenyamanan yang lebih baik dengan berbagai solusi simpanan dari Bank </p>
                 </div>
-                <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-6 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
                     <div class="icon"><i class="bi bi-bounding-box"></i></div>
-                    <h4 class="title"><a href="">Dolor Sitema</a></h4>
-                    <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-                </div>
-                <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                    <div class="icon"><i class="bi bi-globe"></i></div>
-                    <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-                    <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-                </div>
-                <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                    <div class="icon"><i class="bi bi-broadcast"></i></div>
-                    <h4 class="title"><a href="">Magni Dolores</a></h4>
-                    <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                </div>
-                <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-                    <div class="icon"><i class="bi bi-brightness-high"></i></div>
-                    <h4 class="title"><a href="">Nemo Enim</a></h4>
-                    <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-                </div>
-                <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
-                    <div class="icon"><i class="bi bi-calendar2-week"></i></div>
-                    <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-                    <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+                    <h4 class="title"><a href="">Pinjaman</a></h4>
+                    <p class="description">Kami siap membantu mengembangkan bisnis anda dalam memberikan fasilitas pinjaman yang bisa disesuaikan dengan bisnis anda</p>
                 </div>
             </div>
 
         </div>
     </section><!-- End Services Section -->
 
-    <!-- ======= Our Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-            <div class="section-title">
-                <h2>Our Portfolio</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul id="portfolio-flters">
-                        <li data-filter="*" class="filter-active">All</li>
-                        <li data-filter=".filter-app">App</li>
-                        <li data-filter=".filter-card">Card</li>
-                        <li data-filter=".filter-web">Web</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="row portfolio-container">
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap">
-                        <img src="<?= base_url('assets/mamba/'); ?>assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>App 1</h4>
-                            <p>App</p>
-                            <div class="portfolio-links">
-                                <a href="<?= base_url('assets/mamba/'); ?>assets/img/portfolio/portfolio-1.jpg" data-galleryery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <div class="portfolio-wrap">
-                        <img src="<?= base_url('assets/mamba/'); ?>assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Web 3</h4>
-                            <p>Web</p>
-                            <div class="portfolio-links">
-                                <a href="<?= base_url('assets/mamba/'); ?>assets/img/portfolio/portfolio-2.jpg" data-galleryery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap">
-                        <img src="<?= base_url('assets/mamba/'); ?>assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>App 2</h4>
-                            <p>App</p>
-                            <div class="portfolio-links">
-                                <a href="<?= base_url('assets/mamba/'); ?>assets/img/portfolio/portfolio-3.jpg" data-galleryery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bi bi-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <div class="portfolio-wrap">
-                        <img src="<?= base_url('assets/mamba/'); ?>assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Card 2</h4>
-                            <p>Card</p>
-                            <div class="portfolio-links">
-                                <a href="<?= base_url('assets/mamba/'); ?>assets/img/portfolio/portfolio-4.jpg" data-galleryery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bi bi-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <div class="portfolio-wrap">
-                        <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Web 2</h4>
-                            <p>Web</p>
-                            <div class="portfolio-links">
-                                <a href="<?= base_url('assets/mamba/'); ?>assets/img/portfolio/portfolio-5.jpg" data-galleryery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bi bi-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                    <div class="portfolio-wrap">
-                        <img src="<?= base_url('assets/mamba/'); ?>assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>App 3</h4>
-                            <p>App</p>
-                            <div class="portfolio-links">
-                                <a href="<?= base_url('assets/mamba/'); ?>assets/img/portfolio/portfolio-6.jpg" data-galleryery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bi bi-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <div class="portfolio-wrap">
-                        <img src="<?= base_url('assets/mamba/'); ?>assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Card 1</h4>
-                            <p>Card</p>
-                            <div class="portfolio-links">
-                                <a href="<?= base_url('assets/mamba/'); ?>assets/img/portfolio/portfolio-7.jpg" data-galleryery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bi bi-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                    <div class="portfolio-wrap">
-                        <img src="<?= base_url('assets/mamba/'); ?>assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Card 3</h4>
-                            <p>Card</p>
-                            <div class="portfolio-links">
-                                <a href="<?= base_url('assets/mamba/'); ?>assets/img/portfolio/portfolio-8.jpg" data-galleryery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bi bi-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                    <div class="portfolio-wrap">
-                        <img src="<?= base_url('assets/mamba/'); ?>assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-                        <div class="portfolio-info">
-                            <h4>Web 3</h4>
-                            <p>Web</p>
-                            <div class="portfolio-links">
-                                <a href="<?= base_url('assets/mamba/'); ?>assets/img/portfolio/portfolio-9.jpg" data-galleryery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
-                                <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </section><!-- End Our Portfolio Section -->
-
     <!-- ======= Our Team Section ======= -->
     <section id="team" class="team">
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
-                <h2>Our Team</h2>
+                <h2>Team Kami</h2>
                 <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.</p>
             </div>
 
@@ -504,7 +265,7 @@
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
-                <h2>Frequently Asked Questions</h2>
+                <h2>Silahkan baca sebelum menggunakan layanan kami</h2>
             </div>
 
             <div class="row  d-flex align-items-stretch">
@@ -624,72 +385,9 @@
 
 <!-- ======= Footer ======= -->
 <footer id="footer">
-    <div class="footer-top">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-lg-3 col-md-6 footer-info">
-                    <h3>Mamba</h3>
-                    <p>
-                        A108 Adam Street <br>
-                        NY 535022, USA<br><br>
-                        <strong>Phone:</strong> +1 5589 55488 55<br>
-                        <strong>Email:</strong> info@example.com<br>
-                    </p>
-                    <div class="social-links mt-3">
-                        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-                    </div>
-                </div>
-
-                <div class="col-lg-2 col-md-6 footer-links">
-                    <h4>Useful Links</h4>
-                    <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-3 col-md-6 footer-links">
-                    <h4>Our Services</h4>
-                    <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-4 col-md-6 footer-newsletter">
-                    <h4>Our Newsletter</h4>
-                    <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-                    <form action="" method="post">
-                        <input type="email" name="email"><input type="submit" value="Subscribe">
-                    </form>
-
-                </div>
-
-            </div>
-        </div>
-    </div>
-
     <div class="container">
         <div class="copyright">
-            &copy; Copyright <strong><span>Mamba</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/mamba-one-page-bootstrap-template-free/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            &copy; Copyright <strong><span>BANKKU</span></strong>. All Rights Reserved
         </div>
     </div>
 </footer><!-- End Footer -->
