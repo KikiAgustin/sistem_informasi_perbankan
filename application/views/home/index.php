@@ -1,25 +1,3 @@
-<!-- ======= Header ======= -->
-<header id="header" class="d-flex align-items-center">
-    <div class="container d-flex align-items-center">
-
-        <div class="logo me-auto">
-            <h1><a href="<?= base_url('Home'); ?>">Bankku</a></h1>
-            <!-- Uncomment below if you prefer to use an image logo -->
-            <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-        </div>
-
-        <nav id="navbar" class="navbar">
-            <ul>
-                <li><a class="nav-link scrollto active" href="#hero">Simpanan</a></li>
-                <li><a class="nav-link scrollto" href="#about">Pinjaman</a></li>
-                <li><a class="nav-link scrollto" href="#services">Kontak</a></li>
-            </ul>
-            <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav><!-- .navbar -->
-
-    </div>
-</header><!-- End Header -->
-
 <!-- ======= Hero Section ======= -->
 <section id="hero">
     <div class="hero-container">
@@ -30,7 +8,7 @@
             <div class="carousel-inner" role="listbox">
 
                 <!-- Slide 1 -->
-                <div class="carousel-item active" style="background-image: url('<?= base_url('assets/mamba/'); ?>assets/img/slide/slide-1.jpg');">
+                <div class="carousel-item active" style="background-image: url('<?= base_url('assets/mamba/'); ?>assets/img/slide/slide-2.jpg');">
                     <div class="carousel-container">
                         <div class="carousel-content container">
                             <h2 class="animate__animated animate__fadeInDown">Selamat Datang Di <span>BANKKU</span></h2>
@@ -41,7 +19,7 @@
                 </div>
 
                 <!-- Slide 2 -->
-                <div class="carousel-item" style="background-image: url('<?= base_url('assets/mamba/'); ?>assets/img/slide/slide-2.jpg');">
+                <div class="carousel-item" style="background-image: url('<?= base_url('assets/mamba/'); ?>assets/img/slide/simpanan.jpg');">
                     <div class="carousel-container">
                         <div class="carousel-content container">
                             <h2 class="animate__animated animate__fadeInDown">Simpanan</h2>
@@ -52,7 +30,7 @@
                 </div>
 
                 <!-- Slide 3 -->
-                <div class="carousel-item" style="background-image: url('<?= base_url('assets/mamba/'); ?>assets/img/slide/slide-3.jpg');">
+                <div class="carousel-item" style="background-image: url('<?= base_url('assets/mamba/'); ?>assets/img/slide/pinjaman.jpg');">
                     <div class="carousel-container">
                         <div class="carousel-content container">
                             <h2 class="animate__animated animate__fadeInDown">Pinjaman</h2>
@@ -83,8 +61,8 @@
 
             <div class="row no-gutters">
                 <div class="col-lg-6 video-box">
-                    <img src="<?= base_url('assets/mamba/'); ?>assets/img/about.jpg" class="img-fluid" alt="">
-                    <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+                    <img src="<?= base_url('assets/mamba/'); ?>assets/img/about1.jpg" class="img-fluid" alt="">
+                    <a target="blank" href="https://www.youtube.com/watch?v=GTDVfhOSfKU" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
                 </div>
 
                 <div class="col-lg-6 d-flex flex-column justify-content-center about-content">
@@ -167,12 +145,12 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 icon-box" data-aos="fade-up">
                     <div class="icon"><i class="bi bi-chat-left-dots"></i></div>
-                    <h4 class="title"><a href="">Simpanan</a></h4>
+                    <h4 class="title"><a href="<?= base_url('Home/simpanan'); ?>">Simpanan</a></h4>
                     <p class="description">Dapatkan Keuntungan dan kenyamanan yang lebih baik dengan berbagai solusi simpanan dari Bank </p>
                 </div>
                 <div class="col-lg-6 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
                     <div class="icon"><i class="bi bi-bounding-box"></i></div>
-                    <h4 class="title"><a href="">Pinjaman</a></h4>
+                    <h4 class="title"><a href="<?= base_url('Home/pinjaman'); ?>">Pinjaman</a></h4>
                     <p class="description">Kami siap membantu mengembangkan bisnis anda dalam memberikan fasilitas pinjaman yang bisa disesuaikan dengan bisnis anda</p>
                 </div>
             </div>
@@ -193,7 +171,7 @@
 
                 <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up">
                     <div class="member">
-                        <div class="pic"><img src="<?= base_url('assets/mamba/'); ?>assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
+                        <div class="pic"><img src="<?= base_url('assets/mamba/'); ?>assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
                         <div class="member-info">
                             <h4>Walter White</h4>
                             <span>Chief Executive Officer</span>
@@ -209,9 +187,9 @@
 
                 <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="member">
-                        <div class="pic"><img src="<?= base_url('assets/mamba/'); ?>assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
+                        <div class="pic"><img src="<?= base_url('assets/mamba/'); ?>assets/img/team/team.jpg" class="img-fluid" alt=""></div>
                         <div class="member-info">
-                            <h4>Sarah Jhonson</h4>
+                            <h4>Kiki Agustin</h4>
                             <span>Product Manager</span>
                             <div class="social">
                                 <a href=""><i class="bi bi-twitter"></i></a>
@@ -227,7 +205,7 @@
                     <div class="member">
                         <div class="pic"><img src="<?= base_url('assets/mamba/'); ?>assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
                         <div class="member-info">
-                            <h4>William Anderson</h4>
+                            <h4>Liani Kuspita</h4>
                             <span>CTO</span>
                             <div class="social">
                                 <a href=""><i class="bi bi-twitter"></i></a>
@@ -316,80 +294,3 @@
 
         </div>
     </section><!-- End Frequently Asked Questions Section -->
-
-    <!-- ======= Contact Us Section ======= -->
-    <section id="contact" class="contact">
-        <div class="container" data-aos="fade-up">
-
-            <div class="section-title">
-                <h2>Contact Us</h2>
-            </div>
-
-            <div class="row">
-
-                <div class="col-lg-6 d-flex" data-aos="fade-up">
-                    <div class="info-box">
-                        <i class="bx bx-map"></i>
-                        <h3>Our Address</h3>
-                        <p>A108 Adam Street, New York, NY 535022</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 d-flex" data-aos="fade-up" data-aos-delay="100">
-                    <div class="info-box">
-                        <i class="bx bx-envelope"></i>
-                        <h3>Email Us</h3>
-                        <p>info@example.com<br>contact@example.com</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 d-flex" data-aos="fade-up" data-aos-delay="200">
-                    <div class="info-box ">
-                        <i class="bx bx-phone-call"></i>
-                        <h3>Call Us</h3>
-                        <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-12" data-aos="fade-up" data-aos-delay="300">
-                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                        <div class="row">
-                            <div class="col-lg-6 form-group">
-                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                            </div>
-                            <div class="col-lg-6 form-group">
-                                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-                        </div>
-                        <div class="my-3">
-                            <div class="loading">Loading</div>
-                            <div class="error-message"></div>
-                            <div class="sent-message">Your message has been sent. Thank you!</div>
-                        </div>
-                        <div class="text-center"><button type="submit">Send Message</button></div>
-                    </form>
-                </div>
-
-            </div>
-
-        </div>
-    </section><!-- End Contact Us Section -->
-
-</main><!-- End #main -->
-
-<!-- ======= Footer ======= -->
-<footer id="footer">
-    <div class="container">
-        <div class="copyright">
-            &copy; Copyright <strong><span>BANKKU</span></strong>. All Rights Reserved
-        </div>
-    </div>
-</footer><!-- End Footer -->
-
-<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
