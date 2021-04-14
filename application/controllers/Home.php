@@ -19,8 +19,10 @@ class Home extends CI_Controller
 
     public function simpanan()
     {
+        $simpanan = $this->db->get('tbl_simpanan')->result_array();
         $data = [
-            "judul" => "BANKKU | Simpanan"
+            "judul"     => "BANKKU | Simpanan",
+            "simpanan"  => $simpanan
         ];
 
         $this->load->view('template/header', $data);
