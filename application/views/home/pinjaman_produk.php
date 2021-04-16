@@ -5,12 +5,12 @@
         <div class="row no-gutters">
 
             <?php $i = 1; ?>
-            <?php foreach ($pinjaman as $pjm) : ?>
+            <?php foreach ($produkPinjaman as $pjm) : ?>
                 <div class="col-lg-6 col-md-6 content-item" data-aos="fade-up">
-                    <a href="<?= base_url('Home/pinjamaUMKM/') . $pjm['id_pinjaman']; ?>">
+                    <a href="">
                         <span>0<?= $i++; ?></span>
-                        <h4 style="color: black;"><?= $pjm['judul']; ?></h4>
-                        <p><?= $pjm['ringkas']; ?></p>
+                        <h4 style="color: black;"><?= $pjm['nama_pinjaman']; ?></h4>
+                        <p><?= $pjm['ringkas_pinjaman']; ?></p>
                     </a>
                 </div>
             <?php endforeach; ?>
