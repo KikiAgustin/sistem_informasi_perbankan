@@ -11,24 +11,24 @@
             <div class="col-lg-6 d-flex" data-aos="fade-up">
                 <div class="info-box">
                     <i class="bx bx-map"></i>
-                    <h3>Our Address</h3>
-                    <p>A108 Adam Street, New York, NY 535022</p>
+                    <h3>Alamat Kami</h3>
+                    <p>Jl. Cibaduyut Lama No. 57A</p>
                 </div>
             </div>
 
             <div class="col-lg-3 d-flex" data-aos="fade-up" data-aos-delay="100">
                 <div class="info-box">
                     <i class="bx bx-envelope"></i>
-                    <h3>Email Us</h3>
-                    <p>info@example.com<br>contact@example.com</p>
+                    <h3>Email</h3>
+                    <p>bankku@gmail.com<br>costumer@bankku.com</p>
                 </div>
             </div>
 
             <div class="col-lg-3 d-flex" data-aos="fade-up" data-aos-delay="200">
                 <div class="info-box ">
                     <i class="bx bx-phone-call"></i>
-                    <h3>Call Us</h3>
-                    <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
+                    <h3>Kontak</h3>
+                    <p>085765667987<br>087667665443</p>
                 </div>
             </div>
         </div>

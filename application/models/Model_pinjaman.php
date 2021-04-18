@@ -8,4 +8,14 @@ class Model_pinjaman extends CI_Model
     {
         return $this->db->get_where('tbl_produk_pinjaman', ['id_pinjaman' => $id_pinjaman])->result_array();
     }
+
+    public function detailPinjaman($id_produk)
+    {
+        return $this->db->get_where('tbl_produk_pinjaman', ['id_produk_pinjaman' => $id_produk])->row_array();
+    }
+
+    public function fiturPinjaman($id_produk)
+    {
+        return $this->db->get_where('tbl_fitur_kredit_pinjaman', ['id_produk_pinjaman' => $id_produk])->result_array();
+    }
 }

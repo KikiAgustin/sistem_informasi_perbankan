@@ -66,4 +66,21 @@ class Home extends CI_Controller
         $this->load->view('home/pinjaman_produk');
         $this->load->view('template/footer');
     }
+
+    public function detailPinjaman($id_produk)
+    {
+        $detailPinjaman = $this->Model_pinjaman->detailPinjaman($id_produk);
+        $fiturPinjaman   = $this->Model_pinjaman->fiturPinjaman($id_produk);
+        $data = [
+            "judul"             => "BANKKU | Detail Pinjaman ",
+            "detailPinjaman"    => $detailPinjaman,
+            "fiturPinjaman"     => $fiturPinjaman
+
+        ];
+
+        $this->load->view('template/header', $data);
+        $this->load->view('template/navbar');
+        $this->load->view('home/detail_pinjaman');
+        $this->load->view('template/footer');
+    }
 }
