@@ -16,7 +16,7 @@ class Home extends CI_Controller
         $this->load->view('template/footer');
     }
 
-
+    // Controler untuk Simpanan
     public function simpanan()
     {
         $simpanan = $this->db->get('tbl_simpanan')->result_array();
@@ -31,7 +31,34 @@ class Home extends CI_Controller
         $this->load->view('template/footer');
     }
 
+    public function tabunganBisnis()
+    {
+        $data = [
+            "judul"             => "BANKKU | Tabungan Bisnis  "
 
+        ];
+
+        $this->load->view('template/header', $data);
+        $this->load->view('template/navbar');
+        $this->load->view('simpanan/tabungan_bisnis');
+        $this->load->view('template/footer');
+    }
+
+    public function depositoRupiah()
+    {
+        $data = [
+            "judul"             => "BANKKU | Deposito Rupiah  "
+
+        ];
+
+        $this->load->view('template/header', $data);
+        $this->load->view('template/navbar');
+        $this->load->view('simpanan/deposito_rupiah');
+        $this->load->view('template/footer');
+    }
+
+
+    // Controller Untuk Pinjaman
     public function pinjaman()
     {
         $pinjaman = $this->db->get('tbl_pinjaman')->result_array();
