@@ -67,6 +67,62 @@ class Home extends CI_Controller
         $this->load->view('template/footer');
     }
 
+    public function modalKerja()
+    {
+        $data = [
+            "judul"             => "BANKKU | Pinjaman Modal Kerja  "
+
+        ];
+
+        $this->load->view('template/header', $data);
+        $this->load->view('template/navbar');
+        $this->load->view('home/modal_kerja');
+        $this->load->view('template/footer');
+    }
+
+    public function usahaRakyat()
+    {
+        $data = [
+            "judul"             => "BANKKU | Pinjaman Usaha Rakyat  "
+
+        ];
+
+        $this->load->view('template/header', $data);
+        $this->load->view('template/navbar');
+        $this->load->view('home/usaha_rakyat');
+        $this->load->view('template/footer');
+    }
+
+    public function modalKerjaCorporate()
+    {
+        $data = [
+            "judul"             => "BANKKU | Kredit Modal Kerja  "
+
+        ];
+
+        $this->load->view('template/header', $data);
+        $this->load->view('template/navbar');
+        $this->load->view('corporate/modal_kerja');
+        $this->load->view('template/footer');
+    }
+
+    public function kreditInvestasi()
+    {
+        $data = [
+            "judul"             => "BANKKU | Kredit Investasi  "
+
+        ];
+
+        $this->load->view('template/header', $data);
+        $this->load->view('template/navbar');
+        $this->load->view('corporate/kredit_investasi');
+        $this->load->view('template/footer');
+    }
+
+
+
+
+
     public function detailPinjaman($id_produk)
     {
         $detailPinjaman = $this->Model_pinjaman->detailPinjaman($id_produk);
